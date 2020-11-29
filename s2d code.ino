@@ -4,10 +4,10 @@
 #include <Adafruit_Fingerprint.h>
 #define digitalpin D4 
  
-String apiKey = "U14BH757P0JKPD3W";    
+String apiKey = "************";  //ThingSpeak Channel apiKey generated while creating  
 
-const char *ssid =  "rishitha";      //replace with your wifi ssid and wpa2 key
-const char *pass =  "84668466";
+const char *ssid =  "*******";      //replace with your wifi ssid and wpa2 key
+const char *pass =  "*****";
 const char* server = "api.thingspeak.com";
 int c=0;
 int state,laststate=0;
